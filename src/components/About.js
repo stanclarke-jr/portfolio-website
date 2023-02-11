@@ -2,7 +2,7 @@ import Image from '../assets/img/about.webp';
 
 const About = () => {
   return (
-    <section className="section bg-secondary">
+    <section id="about" className="section bg-secondary">
       <div className="container mx-auto">
         {/* Image */}
         <div className="flex flex-col xl:flex-row gap-24">
