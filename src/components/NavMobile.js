@@ -1,7 +1,6 @@
 import { useState } from 'react';
 
 import { navigation } from '../data';
-import Socials from './Socials';
 
 import { XIcon, MenuAlt3Icon } from '@heroicons/react/outline';
 // import { MenuAlt3Icon } from '@heroicons/react/outline';
