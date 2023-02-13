@@ -23,9 +23,9 @@ const Hero = () => {
             </button>
           </div>
           {/* Right content */}
-          <div className="hidden h-full flex-1 items-end justify-end lg:flex">
+          {/* <div className="hidden h-full flex-1 items-end justify-end lg:flex">
             <img src={WomanImg} alt="" />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
