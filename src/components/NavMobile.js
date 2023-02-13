@@ -51,7 +51,7 @@ const NavMobile = () => {
         variants={circleVariants}
         initial="hidden"
         animate={isOpen ? 'visible' : 'hidden'}
-        className="h-4 w-4 rounded-full bg-accent fixed top-0 right-0"
+        className="fixed top-0 right-0 h-4 w-4 rounded-full bg-accent"
       ></motion.div>
       {/* Menu items */}
       <motion.ul
@@ -60,11 +60,11 @@ const NavMobile = () => {
         animate={isOpen ? 'visible' : ''}
         className={`${
           isOpen ? 'right-0' : '-right-full'
-        } fixed top-0 bottom-0 w-full flex flex-col justify-center items-center transition-all duration-300 overflow-hidden`}
+        } fixed top-0 bottom-0 flex w-full flex-col items-center justify-center overflow-hidden transition-all duration-300`}
       >
         {/* Close menu icon */}
         <div
-          className="cursor-pointer absolute top-8 right-8"
+          className="absolute top-8 right-8 cursor-pointer"
           onClick={() => setIsOpen(false)}
         >
           <XIcon className="h-8" />
@@ -77,7 +77,7 @@ const NavMobile = () => {
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className=" capitalize text-xl cursor-pointer"
+                className=" cursor-pointer text-xl capitalize"
               >
                 {item.name}
               </Link>

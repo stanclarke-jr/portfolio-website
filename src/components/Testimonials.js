@@ -5,7 +5,7 @@ const Testimonials = () => {
     <section id="testimonials" className="section bg-secondary">
       <div className="container mx-auto">
         <div className="flex flex-col items-center text-center">
-          <h2 className="section-title before:content-testimonials before:hidden before:absolute relative before:opacity-40 before:lg:block before:-top-[2rem] before:-left-64">
+          <h2 className="section-title relative before:absolute before:-top-[2rem] before:-left-64 before:hidden before:opacity-40 before:content-testimonials before:lg:block">
             What my clients say
           </h2>
           <p className="subtitle">

@@ -4,12 +4,12 @@ import { Link } from 'react-scroll';
 const Nav = () => {
   return (
     <nav>
-      <ul className="flex space-x-8 capitalize text-[15px]">
+      <ul className="flex space-x-8 text-[15px] capitalize">
         {navigation.map((item) => {
           return (
             <li
               key={item.name}
-              className="text-white hover:text-accent cursor-pointer"
+              className="cursor-pointer text-white hover:text-accent"
             >
               <Link
                 to={item.href}

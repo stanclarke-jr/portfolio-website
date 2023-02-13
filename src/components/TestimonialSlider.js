@@ -27,12 +27,12 @@ const TestimonialSlider = () => {
             testimonial;
           return (
             <SwiperSlide key={index}>
-              <div className="flex flex-col lg:flex-row gap-12 lg:gap-32">
-                <div className="h-48 w-48 lg:w-[328px] lg:h-[328px]">
+              <div className="flex flex-col gap-12 lg:flex-row lg:gap-32">
+                <div className="h-48 w-48 lg:h-[328px] lg:w-[328px]">
                   <img className="rounded-2xl" src={authorImg} alt="" />
                 </div>
-                <div className="flex flex-col max-w-3xl">
-                  <h5 className="font-body text-2xl mb-8 italic font-normal">
+                <div className="flex max-w-3xl flex-col">
+                  <h5 className="mb-8 font-body text-2xl font-normal italic">
                     {authorText}
                   </h5>
                   <div>
