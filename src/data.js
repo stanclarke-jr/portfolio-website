@@ -257,14 +257,14 @@ export const contact = [
     id: 1,
     icon: <FiMail />,
     title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    subtitle: "Don't hesitate reach out. I'm here to help.",
+    description: 'Email me at hi@stanclarkejr.ca',
   },
   {
     id: 2,
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Montréal, 🇨🇦 ',
     description: 'Serving clients worldwide',
   },
 ];
