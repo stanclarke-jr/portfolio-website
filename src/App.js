@@ -1,4 +1,5 @@
 import About from './components/About';
+import BackToTopButton from './components/BackToTopButton';
 import Brands from './components/Brands';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -22,7 +23,7 @@ const App = () => {
       <Testimonials />
       <Contact />
       <Footer />
-      <div style={{ height: '2000px' }}></div>
+      <BackToTopButton />
     </div>
   );
 };
