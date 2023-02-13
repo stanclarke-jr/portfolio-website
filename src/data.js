@@ -254,12 +254,14 @@ export const testimonials = [
 // contact
 export const contact = [
   {
+    id: 1,
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
     description: 'Email me at hello@youremail.com',
   },
   {
+    id: 2,
     icon: <FiMapPin />,
     title: 'Current Location',
     subtitle: 'Bucharest, Romania',
