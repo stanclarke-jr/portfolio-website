@@ -4,7 +4,8 @@ const Copyright = () => {
       <div>
         <div>
           <p className="text-center text-base">
-            &copy; {new Date().getFullYear()}. All rights reserved.
+            &copy; {new Date().getFullYear()} Stan Clarke, Jr. All rights
+            reserved.
           </p>
         </div>
       </div>
