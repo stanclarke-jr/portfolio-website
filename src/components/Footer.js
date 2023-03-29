@@ -1,6 +1,6 @@
 import { social } from '../data';
 import Copyright from './Copyright';
-import Logo from '../assets/img/logo.svg';
+import Logo from '../assets/img/logo.png';
 
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
             })}
           </div>
           {/* Logo */}
-          <div>
+          <div className="text-center">
             <img src={Logo} alt="logo" />
           </div>
           {/* Copyright */}
