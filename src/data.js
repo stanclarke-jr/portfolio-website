@@ -1,15 +1,14 @@
 //  icons
 import {
-  FiYoutube,
-  FiInstagram,
+  FiLinkedin,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
   FiTag,
   FiMail,
   FiMapPin,
+  FiTwitter,
 } from 'react-icons/fi';
 
 // companies icons
@@ -73,20 +72,16 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
-  },
-  {
-    icon: <FiInstagram />,
-    href: '',
-  },
-  {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/stanclarke-jr',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://linkedin.com/stan-clarke-jr',
+  },
+  {
+    icon: <FiTwitter />,
+    href: 'https://twitter.com/stanclarkejr',
   },
 ];
 

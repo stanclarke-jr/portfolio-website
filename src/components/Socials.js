@@ -9,7 +9,12 @@ const Socials = () => {
             key={index}
             className="flex-justify-center items-center text-accent"
           >
-            <a href={item.href} className="text-base">
+            <a
+              href={item.href}
+              target="_blank"
+              classname="text-base"
+              rel="noreferrer"
+            >
               {item.icon}
             </a>
           </li>
